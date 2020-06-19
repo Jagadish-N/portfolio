@@ -1,0 +1,181 @@
+body {
+	margin: 0 auto;
+	border-color: white;
+}
+
+.container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 70vh; /*view port height*/
+}
+
+.cover {
+	width: 1500px;
+	height: auto;
+	margin-top: 0px;
+}
+
+.name {
+	font-family: 'Aclonica', sans-serif;
+	position: absolute;
+	top: 39%;
+	left: 41%;
+	text-align: center;
+}
+
+.job {
+	font-family: 'Cinzel', serif;
+	position: absolute;
+	top: 48%;
+	left: 44%;
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+	.container {
+		padding: 0;
+	}
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 2em;
+	color: #00c4cf;
+}
+
+.s1 {
+	color: red;
+}
+
+.a {
+	width: 35%;
+	height: auto;
+	float: left;
+	margin-right: 20px;
+}
+
+p {
+	font-size: 1.5em;
+	
+}
+
+.container1 {
+	width: 50%;
+	margin: 50px auto 50px;
+	text-align: left;
+	line-height: 2;
+}
+
+hr {
+	border: 6px dotted #f7af01;
+	width: 8%;
+	margin: 130px auto 20px auto;
+	border-bottom: none;
+	opacity: 0.3;
+}
+
+.b {
+	width: 35%;
+	height: auto;
+	float: right;
+	margin-left: 20px;
+}
+
+.container2 {
+	width: 50%;
+	margin: 50px auto 50px;
+	text-align: left;
+}
+
+.s2 {
+	color: maroon;
+	opacity: 0.2;
+}
+
+.c {
+	width: 35%;
+	height: auto;
+	float: left;
+	margin-right: 20px;
+}
+
+.container3 {
+	width: 50%;
+	margin: 50px auto 50px;
+	text-align: left;
+	line-height: 2;
+}
+
+.container4 {
+	width: 30%;
+	margin: 50px auto 50px;
+	text-align: left;
+	line-height: 2;
+}
+
+.space {
+	width: 90%;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.submit {
+	font-size: 1em;
+	padding: 1rem 1.5rem;
+	border-radius: 5px;
+	background-color: #56B870;
+	cursor: pointer;
+}
+
+.submit:hover {
+	background: #56B870;
+	background: -webkit-linear-gradient(top, #56B870 0%,#a5c956 100%);
+
+}
+
+.container5 {
+	margin-right: 0;
+	background-color: #ceadad;
+	padding: 10px;
+}
+
+.p1 {
+	text-align: center;
+}
+
+.d1 {
+	text-align: center;
+}
+
+.fa {
+	padding: 15px;
+	font-size: 15px;
+	width: 15px;
+	text-align: center;
+	text-decoration: none;
+	margin: 2px 1px;
+	border-radius: 50%;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+	background: #fe6243;
+	color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
